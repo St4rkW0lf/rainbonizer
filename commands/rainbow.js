@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-//const db = require("quick.db");
 
 module.exports.run = async (bot, message, args) => {
   
@@ -15,10 +14,10 @@ module.exports.run = async (bot, message, args) => {
      } else
      
      return message.channel.send(new Discord.RichEmbed()
-                                                                            .setColor("#B3000C")
-                                                                            .setTitle("<a:wrong:616414913488748584> Sorry, but you can't paint the town rainbow!")
-                                                                            .setDescription("Check your **%flerken** and go to **%store** to get your voucher")
-                                                                            ).then((msg)=>{
+        .setColor("#B3000C")
+        .setTitle("<a:wrong:616414913488748584> Sorry, but you can't paint the town rainbow!")
+        .setDescription("Check your **%flerken** and go to **%store** to get your voucher")
+      ).then((msg)=>{
                 setTimeout(function(){
                   msg.delete();
                  }, 5000); 
@@ -27,7 +26,6 @@ module.exports.run = async (bot, message, args) => {
   
   
   var randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
-  
     
   var role = message.guild.roles.find(role => role.name === '🌈');
    role.setColor(randomColor);  
