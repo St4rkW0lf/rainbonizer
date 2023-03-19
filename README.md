@@ -1,4 +1,4 @@
-# Rainbonizer - Um bot de Discord
+# 🌈 Rainbonizer - Um bot de Discord
 
 <img src="https://i.imgur.com/qcSRQgG.gif" width="200px" align="right">
 
