@@ -1,0 +1,36 @@
+{
+  "name": "discordjs-bot",
+  "version": "1.0.0",
+  "description": "A Discord.js bot which uses a Command Handler",
+  "main": "node index.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "express": "^4.17.1",
+    "quick.db": "^7.0.0-b16",
+    "alphanumeric-random-string-generator": "^1.5.1",
+    "node-nasa-pic-of-day": "^1.0.0",
+    "cron": "^1.8.2",
+    "nasa-apod": "^0.2.0",
+    "enmap": "^5.2.4",
+    "stardate-converter": "^2.0.0",
+    "trek-quotes": "^1.1.1",
+    "startrek": "^1.3.4",
+    "memejs": "^1.1.3",
+    "moment-timezone": "^0.5.27"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
