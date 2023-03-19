@@ -5,7 +5,7 @@ module.exports.run = async (bot, message, args) => {
   
   let rbrole = message.guild.roles.find(role => role.name === '[🌈] RR Voucher');
   let memberr = message.guild.members.get(message.author.id);
-  let padd_logger = bot.channels.get('672639751366508544'); //para testes 670648227179134987 (genuino: 672639751366508544)
+  let padd_logger = bot.channels.get('id_canal');
   
    if(!rbrole ||
       !memberr.roles.has(rbrole.id)){
@@ -25,14 +25,10 @@ module.exports.run = async (bot, message, args) => {
               });
    } 
   
-   //if (!message.member.hasPermission("ADMINISTRATOR")) return;
   
   var randomColor = "#000000".replace(/0/g,function(){return (~~(Math.random()*16)).toString(16);});
   
-    //var role = message.guild.roles.find("id", "693100279440080926");
-  
-  //role.edit({color: randomColor})
-   //var role =  message.guild.roles.get('693100279440080926')
+    
   var role = message.guild.roles.find(role => role.name === '🌈');
    role.setColor(randomColor);  
   console.log(`Role ${role.name} atualizado!`)
