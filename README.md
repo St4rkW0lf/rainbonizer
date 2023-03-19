@@ -7,4 +7,4 @@
 
 <p align="left">Embora o bot não esteja mais ativo, o código-fonte está disponível neste repositório do GitHub como uma amostra de código para outros desenvolvedores explorarem. Sinta-se à vontade para experimentar e modificar o código, criar novas funções e recursos, ou mesmo integrá-lo em seus próprios projetos.</p>
 
-<img align="center" src="https://img.shields.io/badge/-Acessar%20código-blueviolet" href="https://github.com/St4rkW0lf/rainbonizer/tree/glitch"> </a>
+<a href="https://github.com/St4rkW0lf/rainbonizer/tree/glitch"> <img align="center" src="https://img.shields.io/badge/-Acessar%20código-blueviolet"> </a>
